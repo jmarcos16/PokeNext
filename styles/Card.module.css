@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+    background: #fff;
+    margin-bottom: 2em;
+    width: 23%;
+    border-radius: 1em;
+    border: 1px solid rgba(136, 136, 136, 0.3);
+    box-shadow: 4px 4px 0.5em 0.01em rgba(136, 136, 136, 0.2);
+}
+
+.card .id {
+    margin: 0.8em 0;
+    background: #EEE;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .title {
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+.card .btn {
+    border-radius: 5px;
+    padding: 5px 12px;
+    background: #1087FF;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.card .btn:hover {
+    background: #106dca;
+}
